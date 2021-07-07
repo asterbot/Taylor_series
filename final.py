@@ -43,7 +43,8 @@ def create_cart_plane(lim=6,title="Cartesian plane"):
 
 selection=0
 
-def f():
+def plot():
+    '''Plots graph'''
     global selection
     global i
     i=-1
@@ -74,6 +75,7 @@ global temp
 temp=[2]
 
 def make_series():
+    '''Makes next term of series'''
     global temp
     global i
     global stuff
@@ -110,6 +112,7 @@ def make_series():
     plt.show()
 
 def select():
+    '''Decides which function based on radio-button input'''
     global selection
     global stuff
     global showing
@@ -142,7 +145,7 @@ rad2.pack()
 rad3.pack()
 rad4.pack()
 
-button=Button(root,text="plot",command=f)
+button=Button(root,text="plot",command=plot)
 button.pack()
 i=-1
 button2=Button(root,text="next term",command=make_series)
