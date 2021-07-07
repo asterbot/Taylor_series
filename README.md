@@ -2,11 +2,11 @@
 This is a way to experiment and understand how mathematical functions can be expressed as polynomials!
 
 The program uses the following python libraries:
-<ol>
+<ul>
   <li>matplotlib
   <li>numpy
   <li>tkinter
-</ol>
+</ul>
 
 When the program starts, you will see the taylor expansions of a few functions and radiobuttons corresponding to them.
 <br>Choose any function you wish and click "Plot graph"
