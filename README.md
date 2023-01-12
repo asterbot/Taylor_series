@@ -1,4 +1,4 @@
-# Taylor_series
+# Taylor series
 This is a way to experiment and understand how mathematical functions can be expressed as polynomials!
 
 The program uses the following python libraries:
